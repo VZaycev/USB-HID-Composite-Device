@@ -1,0 +1,1 @@
+f103_mcu_setting_usb_test\startup_stm32f103xb.o: startup_stm32f103xb.s

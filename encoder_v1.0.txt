@@ -1,0 +1,25 @@
+/*Encoder_X.Current_State = __HAL_TIM_GET_COUNTER(&htim1);
+		Encoder_Y.Current_State = __HAL_TIM_GET_COUNTER(&htim2);
+		if (Encoder_X.Current_State == Encoder_X.Previous_State){
+			USB_Encoder_Buffer[1] = 0;
+		}
+		else if (Encoder_X.Current_State > Encoder_X.Previous_State){
+			USB_Encoder_Buffer[1] = -1;
+			Encoder_X.Previous_State = Encoder_X.Current_State; 
+		}
+		else if (Encoder_X.Current_State < Encoder_X.Previous_State){
+			USB_Encoder_Buffer[1] = 1;
+			Encoder_X.Previous_State = Encoder_X.Current_State;
+		}
+		////////////////////////////////////////////////////////
+		if (Encoder_Y.Current_State == Encoder_Y.Previous_State){
+			USB_Encoder_Buffer[2] = 0;
+		}
+		else if (Encoder_Y.Current_State > Encoder_Y.Previous_State){
+			USB_Encoder_Buffer[2] = 1;
+			Encoder_Y.Previous_State = Encoder_Y.Current_State;
+		}
+		else if (Encoder_Y.Current_State < Encoder_Y.Previous_State){
+			USB_Encoder_Buffer[2] = -1;
+			Encoder_Y.Previous_State = Encoder_Y.Current_State;
+		}*/
